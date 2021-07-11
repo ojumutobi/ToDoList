@@ -67,7 +67,7 @@
                                         echo "<th>#</th>";
                                         echo "<th>Task Description</th>";
                                         echo "<th>Task Location</th>";
-                                        echo "<th>Salary</th>";
+                                        echo "<th>A</th>";
                                         echo "<th>Action</th>";
                                     echo "</tr>";
                                 echo "</thead>";
@@ -80,8 +80,8 @@
                                         echo "<td>" . $row['Action'] . "</td>";
                                         echo "<td>";
                                             echo '<a href="read.php?id='. $row['Id'] .'" class="mr-3" title="View Record" data-toggle="tooltip"><span class="fa fa-eye"></span></a>';
-                                            echo '<a href="update.php?id='. $row['Id'] .'" class="mr-3" title="Update Record" data-toggle="tooltip"><span class="fa fa-pencil"></span></a>';
-                                            echo '<a href="delete.php?id='. $row['Id'] .'" title="Delete Record" data-toggle="tooltip"><span class="fa fa-trash"></span></a>';
+                                            echo '<a href="updateTask.php?id='. $row['Id'] .'" class="mr-3" title="Update Record" data-toggle="tooltip"><span class="fa fa-pencil"></span></a>';
+                                            echo '<a href="deleteTask.php?id='. $row['Id'] .'" title="Delete Record" data-toggle="tooltip"><span class="fa fa-trash"></span></a>';
                                         echo "</td>";
                                     echo "</tr>";
                                 }

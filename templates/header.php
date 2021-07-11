@@ -25,7 +25,7 @@
 
 		}
 		.wrapper{
-			width: 600px;
+			width: 750px;
 			margin: 0 auto;
 
 		}
@@ -40,7 +40,7 @@
 			</ul>
 			<ul id ="nav-mobile" class="right hide-on-small-and-down">
 				<li><a href="AddList.php" class="btn brand z-depth-0 fa fa-plus"> Create a Task</a>  </li>
-				<li><a href="Landing.php" class="btn brand z-depth-0 fa fa-plus"> Home</a>  </li>
+				<li><a href="Landing.php" class="btn brand z-depth-0"> Home</a>  </li>
 			</ul>
 		</div>	
 
